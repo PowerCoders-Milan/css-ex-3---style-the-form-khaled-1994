@@ -1,4 +1,9 @@
 /* Use Selectors and attributes for the HTML design */
+body{
+    width: 900px;
+    max-width: 900px;
+    margin: 0 auto;
+}
 #hr1{
     border-top: 10px solid black;
     border-top-width: 10px;
@@ -25,16 +30,18 @@ border-top: 2px solid black;
 }
 #Man{
  margin-left: 37%;
- width: 70px;
+ width: 80px;
+ height: 30px;
 }
  
-}
+ 
 #Woman{
-    margin-left: 0%;
-    width: 70px;
+    
+    width: 80px;
+    height: 30px;
 }
     
-   }
+   
 #Man:hover{
     border-bottom-color: red;
     
@@ -58,16 +65,17 @@ border-top: 2px solid black;
 
 #IT{
     margin-left: 38.3%;
-    width: 45px;
+    width: 52px;
+    height: 30px;
     
 }
 #DE{
-    width: 45px;
-    
+    width: 52px;
+    height: 30px;
 }
 #FR{
-    width: 45px;
-    
+    width: 52px;
+    height: 30px;
 }
 #IT:hover{
     border-bottom-color: red;
